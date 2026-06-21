@@ -103,7 +103,7 @@ if df is not None:
     if st.button("Generar Reporte Sweetviz"):
         with st.spinner("Generando reporte HTML interactivo..."):
             reporte = sv.analyze(df)
-            reporte.log_html("reporte_sweetviz.html")
+            reporte.show_html(filepath="reporte_sweetviz.html", open_browser=False)
             
             with open("reporte_sweetviz.html", "r", encoding="utf-8") as f:
                 html_content = f.read()
