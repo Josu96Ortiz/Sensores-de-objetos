@@ -1,10 +1,6 @@
 streamlit
 pandas
-openpyxl
-pygwalker
-sweetviz
+numpy
+pillow
 opencv-python-headless
-streamlit-pandas-profiling
-ydata-profiling==4.18.4
-dtale
-setuptools
+sweetviz
