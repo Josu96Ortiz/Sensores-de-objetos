@@ -108,7 +108,7 @@ if df is not None:
             with open("reporte_sweetviz.html", "r", encoding="utf-8") as f:
                 html_content = f.read()
             
-            components.html(html_content, height=700, scroller=True)
+            components.html(html_content, height=700, scrolling=True)
             st.success("¡Reporte interactivo desplegado!")
 else:
     st.info("💡 Para comenzar, enciende la cámara en el panel izquierdo y captura el objeto.")
