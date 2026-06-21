@@ -1,0 +1,10 @@
+streamlit
+pandas
+openpyxl
+pygwalker
+sweetviz
+opencv-python-headless
+streamlit-pandas-profiling
+ydata-profiling==4.18.4
+dtale
+setuptools
